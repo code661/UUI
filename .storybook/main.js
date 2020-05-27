@@ -9,6 +9,14 @@ module.exports = {
     'storybook-addon-performance',
     '@storybook/addon-a11y',
   ],
+  // typescript: {
+  //   check: false,
+  //   checkOptions: {},
+  //   reactDocgen: 'react-docgen-typescript',
+  //   reactDocgenTypescriptOptions: {
+  //     propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
+  //   },
+  // },
   webpackFinal: (config) => {
 
     // ===================
